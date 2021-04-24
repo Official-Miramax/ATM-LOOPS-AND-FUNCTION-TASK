@@ -294,6 +294,7 @@ def deposit():
         print ("\n Would you like To Do Something Else?")
         print ("1. YES")
         print ("2. NO")
+        
 
         alternateOption = int (input ("Please Select an  \n"))
         if (alternateOption == 1):
@@ -323,7 +324,13 @@ def checkbalance():
     print ("some operations")
 
 def complaints():
-    print ("some operatioms")
+    user_complaint = input ("Please state your complaint and Press Enter \n")
+    time.sleep(3.5)
+    print ("Please wait, System is processing your complaint.....")
+    time.sleep(2.5)
+    print ("Your Complaint has been sent successfully, We would get back to you as soon as possible..")
+    print ("Would you like to try something else? \n 1. YES \n 2. NO")
+
 
 def exit():
     print ("Thanks for banking with us \nPlease Have a nice day !!")
